@@ -72,7 +72,7 @@ Developed a keystroke dynamics pipeline (key-hold time + flight time) and traine
 |---|---|---|
 | [Medical FuzzySec](https://github.com/Ryan-S-Mathew123/Medical-FuzzySec) | Hides encrypted patient data inside medical images using adaptive LSB steganography. The Mamdani FIS adjusts embedding depth based on image complexity — lower distortion, harder to detect. AES + Reed-Solomon ensures the hidden data survives minor image tampering. | Python · Fuzzy Logic · AES-256-CBC · Reed-Solomon |
 
-
+---
 
 <div align="center">
 
