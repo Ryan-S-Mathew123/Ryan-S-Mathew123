@@ -90,18 +90,19 @@ Developed a keystroke dynamics pipeline (key-hold time + flight time) and traine
 
 ---
 
-### Skills
+### Currently
 
-**Languages** — Python · TypeScript · JavaScript · Java · C · SQL · Bash · HTML/CSS  
-**Frameworks** — FastAPI · Flask · Next.js · Node.js · React  
-**AI / ML** — Scikit-learn · PyTorch · TensorFlow · NLP · RAG Pipelines · Sentence Transformers · Fuzzy Logic · Chroma · ConvNeXt  
-**Cybersecurity** — Penetration Testing · Behavioural Biometrics · IDS/IPS · Packet Analysis · Disk Forensics · Kali Linux · Burp Suite · Wireshark  
-**Tools** — Git · Docker · Linux · Jupyter · Ollama · VS Code · Figma
+```
+building  →  final year project (bird species recognition across audio / image / video)
+reading   →  anything on RAG evaluation and retrieval quality
+watching  →  F1 2026 season, every race
+```
 
 ---
 
 <div align="center">
 
-CGPA: 8.16 / 10 · Christ (Deemed to be University) · Aug 2023 – May 2027
+*if something here is interesting or you want to work on something together —*  
+[ryansmathew2005@gmail.com](mailto:ryansmathew2005@gmail.com)
 
 </div>
