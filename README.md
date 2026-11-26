@@ -84,6 +84,6 @@ Developed a keystroke dynamics pipeline (key-hold time + flight time) and traine
 
 <div align="center">
 
-CGPA: 8.05 / 10 · Christ (Deemed to be University) · Aug 2023 – May 2027
+CGPA: 8.16 / 10 · Christ (Deemed to be University) · Aug 2023 – May 2027
 
 </div>
