@@ -11,22 +11,6 @@
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
 </div>
 
 ---
@@ -88,17 +72,7 @@ Developed a keystroke dynamics pipeline (key-hold time + flight time) and traine
 |---|---|---|
 | [Medical FuzzySec](https://github.com/Ryan-S-Mathew123/Medical-FuzzySec) | Hides encrypted patient data inside medical images using adaptive LSB steganography. The Mamdani FIS adjusts embedding depth based on image complexity — lower distortion, harder to detect. AES + Reed-Solomon ensures the hidden data survives minor image tampering. | Python · Fuzzy Logic · AES-256-CBC · Reed-Solomon |
 
----
 
-### Currently
-
-```
-building  →  final year project (bird species recognition across audio / image / video)
-reading   →  anything on RAG evaluation and retrieval quality
-watching  →  F1 2026 season, every race
-```
-
----
 
 <div align="center">
 
