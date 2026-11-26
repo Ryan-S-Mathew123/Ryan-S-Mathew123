@@ -41,46 +41,34 @@ Developed a keystroke dynamics pipeline (key-hold time + flight time) and traine
 
 #### AI / ML
 
-**[Bird Species Recognition](https://github.com/Ryan-S-Mathew123/Final-Year-Project)** — Final year research project comparing classifiers across audio, image, and video modalities. Audio pipeline uses 40-coefficient MFCC features; image pipeline uses a ConvNeXt feature encoder — both evaluated across Random Forest, SVM, KNN, and Gradient Boosting. Includes a local Flask dashboard with batch inference, calibration reports, per-class evaluation, and CSV export.  
-`Python · Scikit-learn · ConvNeXt · Flask · MFCC`
-
-**[Drug Information RAG Chatbot](https://github.com/Ryan-S-Mathew123/Drug-Chatbot)** — End-to-end RAG pipeline with a 0.7 cosine-similarity confidence gate. Auto-fetches unrecognised drugs from openFDA and reindexes them into Chroma without manual uploads.  
-`Python · FastAPI · Chroma · Sentence-Transformers · Ollama · Next.js`
-
-**[Formal vs Informal Shoe Classifier](https://github.com/Ryan-S-Mathew123/Formal-Informal-Shoe-Prediction)** — MobileNetV2-based classifier with live camera input and DIP bounding box detection. Tkinter GUI with real-time confidence scores and an evaluation dashboard.  
-`Python · MobileNetV2 · TensorFlow · Tkinter · DIP`
-
-**[Medical FuzzySec](https://github.com/Ryan-S-Mathew123/Medical-FuzzySec)** — Adaptive medical image steganography. A 27-rule Mamdani FIS dynamically selects LSB depth; dual-layer security uses AES-256-CBC + Reed-Solomon ECC.  
-`Python · Fuzzy Logic · AES-256-CBC · Reed-Solomon`
-
-| Project | What it does | Stack |
+| Project | About | Stack |
 |---|---|---|
-| [FPL Predictor](https://github.com/Ryan-S-Mathew123/Fantasy-Premier-League-Predictor) | Fantasy Premier League analytics for data-driven gameweek planning | TypeScript · ML |
-| [Transfer Market Predictor](https://github.com/Ryan-S-Mathew123/Transfer-Market-Predictor) | Estimates football player market values using goals/90, assists/90 regression | Python · Scikit-learn · Flask |
-| [F1 Telemetry Visualiser](https://github.com/Ryan-S-Mathew123/f1-race-telemetry-analysis) | Race replay with live driver positions, tyre compounds, safety car animations | Python |
+| [Bird Species Recognition](https://github.com/Ryan-S-Mathew123/Final-Year-Project) | Final year research project comparing classifiers across audio, image, and video. Audio pipeline uses 40-coefficient MFCCs; images go through a ConvNeXt encoder — both tested across RF, SVM, KNN, and Gradient Boosting. Flask dashboard handles batch inference, calibration reports, and CSV export. | Python · Scikit-learn · ConvNeXt · Flask |
+| [Drug Information RAG Chatbot](https://github.com/Ryan-S-Mathew123/Drug-Chatbot) | End-to-end RAG pipeline with a 0.7 cosine-similarity confidence gate. Unrecognised drugs are auto-fetched from openFDA and reindexed into Chroma — no manual uploads. Next.js frontend, FastAPI backend, Ollama for local inference. | Python · FastAPI · Chroma · Sentence-Transformers · Ollama · Next.js |
+| [Formal vs Informal Shoe Classifier](https://github.com/Ryan-S-Mathew123/Formal-Informal-Shoe-Prediction) | MobileNetV2-based classifier with dual input modes — image upload or live camera feed. DIP pipeline detects and draws bounding boxes around the shoe before classification. Tkinter GUI with real-time confidence scores and an evaluation dashboard. | Python · MobileNetV2 · TensorFlow · Tkinter |
+| [Medical FuzzySec](https://github.com/Ryan-S-Mathew123/Medical-FuzzySec) | Adaptive medical image steganography using a 27-rule Mamdani FIS to dynamically select LSB embedding depth. Dual-layer security pipeline pairs AES-256-CBC encryption with Reed-Solomon error-correcting codes. | Python · Fuzzy Logic · AES-256-CBC · Reed-Solomon |
+| [FPL Predictor](https://github.com/Ryan-S-Mathew123/Fantasy-Premier-League-Predictor) | Fantasy Premier League analytics tool that crunches player stats from the FPL API to support data-driven gameweek decisions. Models player performance trends and flags differential picks. | TypeScript · ML · FPL API |
+| [Transfer Market Predictor](https://github.com/Ryan-S-Mathew123/Transfer-Market-Predictor) | Estimates football player market values using engineered features like goals/90 and assists/90, pulled via the football-data.org API. Scikit-learn regression pipeline served through a Flask web interface. | Python · Scikit-learn · Flask · Pandas |
+| [F1 Telemetry Visualiser](https://github.com/Ryan-S-Mathew123/f1-race-telemetry-analysis) | Interactive race replay tool that renders live driver positions on a track, tracks tyre compounds, lap counts, and race time. Includes safety car animations with pulsing glow effects and a floating insights menu for telemetry analysis. | Python |
 
 ---
 
 #### Full-Stack
 
-**[Streakify](https://github.com/Ryan-S-Mathew123/streakify)** — Social music platform built around daily song submissions. Features secure auth, group streak tracking, leaderboards, weekly stats, and friend-based song discovery via the iTunes Search API. Deployable on Render via Docker.  
-`React · TypeScript · FastAPI · SQLAlchemy · SQLite · Tailwind CSS`
-
-**[XeniaONE Hotel Concierge](https://github.com/Ryan-S-Mathew123/XeniaOneSummerInternshipWork-2026)** — 7-layer hotel management platform. Guest chat handled by *Nova* (Groq Llama 3.1 fallback); 5-stage intent pipeline routes requests to departments. Admin dashboard with live stats, KB editor, photo manager, and service request board.  
-`Flask · SQLite · JWT · Groq AI · HTML/CSS/JS`
-
-| Project | What it does | Stack |
+| Project | About | Stack |
 |---|---|---|
-| [Bunk Mastr](https://github.com/Ryan-S-Mathew123/Bunk-Mastr) | Attendance tracker — tells you exactly how many classes you can miss | Node.js · Express · SQLite |
-| [AccurateMedicalServices](https://github.com/Ryan-S-Mathew123/AccurateMedicalServices-Website) | Full website for a medical services company | TypeScript |
+| [Streakify](https://github.com/Ryan-S-Mathew123/streakify) | Social music platform built around daily song submissions. Users build personal and group streaks, climb leaderboards, see weekly stats, and discover music through friends — all powered by the iTunes Search API. Auth, groups, and streaks managed via FastAPI + SQLAlchemy. Deployable on Render via Docker. | React · TypeScript · FastAPI · SQLAlchemy · SQLite · Tailwind |
+| [XeniaONE Hotel Concierge](https://github.com/Ryan-S-Mathew123/XeniaOneSummerInternshipWork-2026) | Full hotel management platform with a 7-layer architecture. Guest chat is handled by *Nova*, a Groq Llama 3.1-backed AI with a 5-stage intent pipeline routing requests to departments. Admin dashboard includes live stats, KB editor, photo manager, and service request tracking. | Flask · SQLite · JWT · Groq AI · HTML/CSS/JS |
+| [Bunk Mastr](https://github.com/Ryan-S-Mathew123/Bunk-Mastr) | Multi-user attendance tracker and predictor. Tracks classes across subjects, calculates live percentage, and tells you exactly how many more classes you can skip to stay above your threshold. Configurable semester dates and attendance targets per student. | Node.js · Express · SQLite · Vanilla JS |
+| [AccurateMedicalServices Website](https://github.com/Ryan-S-Mathew123/AccurateMedicalServices-Website) | Full website built for a medical services company. Clean TypeScript-based frontend with service listings, contact flow, and responsive layout designed for a professional audience. | TypeScript |
 
 ---
 
 #### Cybersecurity
 
-| Project | What it does | Stack |
+| Project | About | Stack |
 |---|---|---|
-| [Medical FuzzySec](https://github.com/Ryan-S-Mathew123/Medical-FuzzySec) | Adaptive LSB steganography with Mamdani FIS + AES + Reed-Solomon *(also listed above)* | Python |
+| [Medical FuzzySec](https://github.com/Ryan-S-Mathew123/Medical-FuzzySec) | Hides encrypted patient data inside medical images using adaptive LSB steganography. The Mamdani FIS adjusts embedding depth based on image complexity — lower distortion, harder to detect. AES + Reed-Solomon ensures the hidden data survives minor image tampering. | Python · Fuzzy Logic · AES-256-CBC · Reed-Solomon |
 
 ---
 
@@ -96,6 +84,6 @@ Developed a keystroke dynamics pipeline (key-hold time + flight time) and traine
 
 <div align="center">
 
-CGPA: 8.16 / 10 · Christ (Deemed to be University) · Aug 2023 – May 2027
+CGPA: 8.05 / 10 · Christ (Deemed to be University) · Aug 2023 – May 2027
 
 </div>
