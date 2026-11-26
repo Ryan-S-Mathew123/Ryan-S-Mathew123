@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <!-- Deep dark base -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d13"/>
+      <stop offset="60%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+
+    <!-- Accent glow top-left -->
+    <radialGradient id="glow1" cx="15%" cy="20%" r="40%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Accent glow bottom-right -->
+    <radialGradient id="glow2" cx="88%" cy="80%" r="35%">
+      <stop offset="0%" style="stop-color:#1a2f4a;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Thin line grid fade -->
+    <linearGradient id="gridfade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#ffffff;stop-opacity:0.03"/>
+      <stop offset="70%" style="stop-color:#ffffff;stop-opacity:0.03"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </linearGradient>
+
+    <!-- Name text shimmer -->
+    <linearGradient id="namegrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e2e8f0"/>
+      <stop offset="45%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#94a3b8"/>
+    </linearGradient>
+
+    <!-- Accent line gradient -->
+    <linearGradient id="accentline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#3b82f6;stop-opacity:1"/>
+      <stop offset="60%" style="stop-color:#6366f1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0"/>
+    </linearGradient>
+
+    <filter id="softshadow" x="-5%" y="-5%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <filter id="glowfilter">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- Glow blobs -->
+  <rect width="1200" height="280" fill="url(#glow1)"/>
+  <rect width="1200" height="280" fill="url(#glow2)"/>
+
+  <!-- Dot matrix grid — subtle texture -->
+  <g opacity="0.18">
+    <!-- horizontal rows of dots across width -->
+    <g fill="#4b5563">
+      <!-- Row 1 -->
+      <circle cx="60" cy="40" r="1"/><circle cx="120" cy="40" r="1"/><circle cx="180" cy="40" r="1"/>
+      <circle cx="240" cy="40" r="1"/><circle cx="300" cy="40" r="1"/><circle cx="360" cy="40" r="1"/>
+      <circle cx="420" cy="40" r="1"/><circle cx="480" cy="40" r="1"/><circle cx="540" cy="40" r="1"/>
+      <circle cx="600" cy="40" r="1"/><circle cx="660" cy="40" r="1"/><circle cx="720" cy="40" r="1"/>
+      <circle cx="780" cy="40" r="1"/><circle cx="840" cy="40" r="1"/><circle cx="900" cy="40" r="1"/>
+      <circle cx="960" cy="40" r="1"/><circle cx="1020" cy="40" r="1"/><circle cx="1080" cy="40" r="1"/>
+      <circle cx="1140" cy="40" r="1"/>
+      <!-- Row 2 -->
+      <circle cx="60" cy="80" r="1"/><circle cx="120" cy="80" r="1"/><circle cx="180" cy="80" r="1"/>
+      <circle cx="240" cy="80" r="1"/><circle cx="300" cy="80" r="1"/><circle cx="360" cy="80" r="1"/>
+      <circle cx="420" cy="80" r="1"/><circle cx="480" cy="80" r="1"/><circle cx="540" cy="80" r="1"/>
+      <circle cx="600" cy="80" r="1"/><circle cx="660" cy="80" r="1"/><circle cx="720" cy="80" r="1"/>
+      <circle cx="780" cy="80" r="1"/><circle cx="840" cy="80" r="1"/><circle cx="900" cy="80" r="1"/>
+      <circle cx="960" cy="80" r="1"/><circle cx="1020" cy="80" r="1"/><circle cx="1080" cy="80" r="1"/>
+      <circle cx="1140" cy="80" r="1"/>
+      <!-- Row 3 -->
+      <circle cx="60" cy="120" r="1"/><circle cx="120" cy="120" r="1"/><circle cx="180" cy="120" r="1"/>
+      <circle cx="240" cy="120" r="1"/><circle cx="300" cy="120" r="1"/><circle cx="360" cy="120" r="1"/>
+      <circle cx="420" cy="120" r="1"/><circle cx="480" cy="120" r="1"/><circle cx="540" cy="120" r="1"/>
+      <circle cx="600" cy="120" r="1"/><circle cx="660" cy="120" r="1"/><circle cx="720" cy="120" r="1"/>
+      <circle cx="780" cy="120" r="1"/><circle cx="840" cy="120" r="1"/><circle cx="900" cy="120" r="1"/>
+      <circle cx="960" cy="120" r="1"/><circle cx="1020" cy="120" r="1"/><circle cx="1080" cy="120" r="1"/>
+      <circle cx="1140" cy="120" r="1"/>
+      <!-- Row 4 -->
+      <circle cx="60" cy="160" r="1"/><circle cx="120" cy="160" r="1"/><circle cx="180" cy="160" r="1"/>
+      <circle cx="240" cy="160" r="1"/><circle cx="300" cy="160" r="1"/><circle cx="360" cy="160" r="1"/>
+      <circle cx="420" cy="160" r="1"/><circle cx="480" cy="160" r="1"/><circle cx="540" cy="160" r="1"/>
+      <circle cx="600" cy="160" r="1"/><circle cx="660" cy="160" r="1"/><circle cx="720" cy="160" r="1"/>
+      <circle cx="780" cy="160" r="1"/><circle cx="840" cy="160" r="1"/><circle cx="900" cy="160" r="1"/>
+      <circle cx="960" cy="160" r="1"/><circle cx="1020" cy="160" r="1"/><circle cx="1080" cy="160" r="1"/>
+      <circle cx="1140" cy="160" r="1"/>
+      <!-- Row 5 -->
+      <circle cx="60" cy="200" r="1"/><circle cx="120" cy="200" r="1"/><circle cx="180" cy="200" r="1"/>
+      <circle cx="240" cy="200" r="1"/><circle cx="300" cy="200" r="1"/><circle cx="360" cy="200" r="1"/>
+      <circle cx="420" cy="200" r="1"/><circle cx="480" cy="200" r="1"/><circle cx="540" cy="200" r="1"/>
+      <circle cx="600" cy="200" r="1"/><circle cx="660" cy="200" r="1"/><circle cx="720" cy="200" r="1"/>
+      <circle cx="780" cy="200" r="1"/><circle cx="840" cy="200" r="1"/><circle cx="900" cy="200" r="1"/>
+      <circle cx="960" cy="200" r="1"/><circle cx="1020" cy="200" r="1"/><circle cx="1080" cy="200" r="1"/>
+      <circle cx="1140" cy="200" r="1"/>
+      <!-- Row 6 -->
+      <circle cx="60" cy="240" r="1"/><circle cx="120" cy="240" r="1"/><circle cx="180" cy="240" r="1"/>
+      <circle cx="240" cy="240" r="1"/><circle cx="300" cy="240" r="1"/><circle cx="360" cy="240" r="1"/>
+      <circle cx="420" cy="240" r="1"/><circle cx="480" cy="240" r="1"/><circle cx="540" cy="240" r="1"/>
+      <circle cx="600" cy="240" r="1"/><circle cx="660" cy="240" r="1"/><circle cx="720" cy="240" r="1"/>
+      <circle cx="780" cy="240" r="1"/><circle cx="840" cy="240" r="1"/><circle cx="900" cy="240" r="1"/>
+      <circle cx="960" cy="240" r="1"/><circle cx="1020" cy="240" r="1"/><circle cx="1080" cy="240" r="1"/>
+      <circle cx="1140" cy="240" r="1"/>
+    </g>
+  </g>
+
+  <!-- Geometric corner accent top-left -->
+  <g opacity="0.25" stroke="#3b82f6" stroke-width="1" fill="none">
+    <line x1="40" y1="20" x2="40" y2="70"/>
+    <line x1="40" y1="20" x2="90" y2="20"/>
+    <line x1="40" y1="30" x2="55" y2="20"/>
+  </g>
+
+  <!-- Geometric corner accent bottom-right -->
+  <g opacity="0.25" stroke="#6366f1" stroke-width="1" fill="none">
+    <line x1="1160" y1="260" x2="1160" y2="210"/>
+    <line x1="1160" y1="260" x2="1110" y2="260"/>
+    <line x1="1160" y1="250" x2="1145" y2="260"/>
+  </g>
+
+  <!-- Thin horizontal rule above name -->
+  <rect x="200" y="88" width="800" height="1" fill="url(#gridfade)"/>
+
+  <!-- Main name -->
+  <text
+    x="600" y="148"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="58"
+    font-weight="700"
+    letter-spacing="4"
+    text-anchor="middle"
+    fill="url(#namegrad)"
+    filter="url(#softshadow)"
+  >RYAN S MATHEW</text>
+
+  <!-- Accent underline -->
+  <rect x="280" y="162" width="640" height="2" rx="1" fill="url(#accentline)"/>
+
+  <!-- Role subtitle -->
+  <text
+    x="600" y="200"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="15"
+    font-weight="400"
+    letter-spacing="5"
+    text-anchor="middle"
+    fill="#64748b"
+  >AI · ML · CYBERSECURITY · BANGALORE</text>
+
+  <!-- Thin horizontal rule below subtitle -->
+  <rect x="200" y="218" width="800" height="1" fill="url(#gridfade)"/>
+
+  <!-- Small glowing dot left of accent line -->
+  <circle cx="275" cy="163" r="3" fill="#3b82f6" opacity="0.9" filter="url(#glowfilter)"/>
+  <!-- Small glowing dot right of accent line -->
+  <circle cx="925" cy="163" r="3" fill="#6366f1" opacity="0.9" filter="url(#glowfilter)"/>
+
+</svg>
